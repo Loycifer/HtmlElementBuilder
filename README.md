@@ -4,6 +4,7 @@ This JavaScript object allows for creating HTML blobs using a Java-style builder
 
 example:
 
+```javascript
 var flashObject = new HtmlElement("object")
         .type("application/x-shockwave-flash")
         .id("flashvideo")
@@ -24,3 +25,4 @@ var flashObject = new HtmlElement("object")
                 .value("#303030")
                 .build()
         ).build();
+```
